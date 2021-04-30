@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Prices</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Our Pricing</h1>
+      <div class="toggle-billing">
+        <label for="annually" class="annual-toggle">
+          Annually
+          <span id="monthly-toggle">
+            <input type="checkbox" name="monthly" id="monthly" />
+          </span>
+          Monthly
+        </label>
+      </div>
+      <section class="card-section">
+        <div class="card-body">
+          <h5 class="subtext">Basic</h5>
+          <p class="basic-billing">$199.99</p>
+          <ul class="features">
+            <li class="features-li">500 GB Storage</li>
+            <li class="features-li">2 Users Allowed</li>
+            <li class="features-li">Send up to 3 GB</li>
+          </ul>
+          <button type="button" class="learn-more">learn more</button>
+        </div>
+        <div class="card-body">
+          <h5>Professional</h5>
+          <p class="pro-billing">$249.99</p>
+          <ul class="features">
+            <li class="features-li">1 TB Storage</li>
+            <li class="features-li-mid">5 Users Allowed</li>
+            <li class="features-li">Send up to 10 GB</li>
+          </ul>
+          <button type="button" class="learn-more">learn more</button>
+        </div>
+        <div class="card-body">
+          <h5>Master</h5>
+          <p class="master-billing">$399.99</p>
+          <ul class="features">
+            <li class="features-li">2 TB Storage</li>
+            <li class="features-li">10 Users Allowed</li>
+            <li class="features-li">Send up to 20 GB</li>
+          </ul>
+          <button type="button" class="learn-more">learn more</button>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
